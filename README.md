@@ -1,0 +1,3 @@
+# Housing-Regression-Model
+
+I developed a linear regression model that utilizes housing data from Bangalore, India that can predict the cost of a home based on the location, total sqft, BHK, and batrooms inputted—which can all be used through a local server. I have utilized pandas, numpy, matplotlib to clean+parse the data; then I used the Scikit-learn library to build the regression models, testing linear regression, a lasso, and decision tree to find the highest scoring one with GrdiSearchCV. I utilized flask to help run my model and employed basic CSS, HTML, and JavaScript to build a server to host it. 
